@@ -6,7 +6,9 @@ class AppDelegate
     # @window = UIWindow.alloc.initWithFrame(frame)
     # 
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
-    @window.backgroundColor = UIColor.whiteColor
+
+    @window.rootViewController = Magic8BallViewController.alloc.init
+
     @window.makeKeyAndVisible  # Make window top most & visible.
 
     true
