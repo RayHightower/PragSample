@@ -6,7 +6,7 @@ class AppDelegate
     # @window = UIWindow.alloc.initWithFrame(frame)
     # 
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
-    @window.backgroundColor = UIColor.blueColor
+    @window.backgroundColor = UIColor.whiteColor
     @window.makeKeyAndVisible  # Make window top most & visible.
 
     true
